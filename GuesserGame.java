@@ -10,6 +10,7 @@ class GuesserGame {
 	}
 }
 
+
 class Player {
 	Scanner scanner = new Scanner(System.in);
 	int num;
@@ -21,6 +22,7 @@ class Player {
 	}
 }
 
+
 class Guesser {
 	Scanner scanner = new Scanner(System.in);
 	int guesserNum;
@@ -31,6 +33,7 @@ class Guesser {
 		return guesserNum;
 	}
 }
+
 
 class Umpire {
 	int numFromGuesser;
