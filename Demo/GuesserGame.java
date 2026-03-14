@@ -1,3 +1,4 @@
+package Demo;
 import java.util.Scanner;
 
 class GuesserGame {
@@ -7,6 +8,7 @@ class GuesserGame {
 		u.collectingNumFromGuesser();
 		u.collectionNumFromPlayer();
 		u.comparing();
+
 	}
 }
 
