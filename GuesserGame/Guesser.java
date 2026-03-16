@@ -1,3 +1,4 @@
+package GuesserGame;
 import java.util.Scanner;
 
 /**

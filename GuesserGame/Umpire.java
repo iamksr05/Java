@@ -1,3 +1,5 @@
+package GuesserGame;
+
 /**
  * The Umpire class controls the flow of the guessing game.
  * 

@@ -1,6 +1,4 @@
-package Game;
-import java.util.Scanner;
-
+package GuesserGame;
 /**
  * A simple Guesser game. where there is one guesser, three players and an umpire.
  * 
