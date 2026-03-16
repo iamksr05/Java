@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class AdminDashboard {
-    void adminOption() {
+    void adminOption(Scanner input) {
 
         while (true) {
             System.out.println("1. Create Account");
@@ -9,6 +11,10 @@ public class AdminDashboard {
             System.out.println("1. Withdraw Money");
             System.out.println("1. View All Accounts");
             System.out.println("1. Logout");
+            
+            int adminChoice = input.nextInt();
+            System.out.println(adminChoice);
+
 
         }
     }

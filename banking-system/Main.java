@@ -11,6 +11,8 @@ class Main {
         while (true) {
             
             if (choice == 1) {
+                AdminLogin admin = new AdminLogin();
+                admin.adminPass(input);
 
                 break;
                 
@@ -39,7 +41,8 @@ class AdminLogin {
         if (adminId != 987654321 && adminPass != 1234) {
             System.out.println("Incorrect credentials. Try again!");
         } else {
-
+            AdminDashboard adminDash = new AdminDashboard();
+            adminDash.adminOption(input);
         }
     }
 }
