@@ -9,7 +9,6 @@ class Main {
         int choice = input.nextInt();
 
         while (true) {
-            
             if (choice == 1) {
                 AdminLogin admin = new AdminLogin();
                 admin.adminPass(input);
@@ -22,6 +21,7 @@ class Main {
 
             } else {
                 System.out.println("Invalid Choice. Enter correct choice: ");
+                break;
             }
 
         }
@@ -38,11 +38,11 @@ class AdminLogin {
         System.out.println("Enter your Password: ");
         int adminPass = input.nextInt();
 
-        if (adminId != 987654321 && adminPass != 1234) {
-            System.out.println("Incorrect credentials. Try again!");
-        } else {
+        if (adminId == 1 && adminPass == 1) {
             AdminDashboard adminDash = new AdminDashboard();
             adminDash.adminOption(input);
+        } else {
+            System.out.println("Incorrect credentials. Try again!");
         }
     }
 }
